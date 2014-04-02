@@ -1,14 +1,14 @@
 //
-//  TESTAppDelegate.m
+//  AppDelegate.m
 //  002-FormStudy
 //
 //  Created by 何 旭 on 14-2-6.
 //  Copyright (c) 2014年 何 旭. All rights reserved.
 //
 
-#import "TESTAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation TESTAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

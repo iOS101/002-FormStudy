@@ -1,5 +1,5 @@
 //
-//  TESTViewController.h
+//  ViewController.h
 //  hello world
 //
 //  Created by 何 旭 on 14-2-6.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TESTViewController : UIViewController
+@interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *hellolabel;
 @property (weak, nonatomic) IBOutlet UITextField *hellotext;

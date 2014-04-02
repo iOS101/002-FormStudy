@@ -12,9 +12,9 @@
 		21A4D55A18A32B6D0007EE93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A4D55918A32B6D0007EE93 /* UIKit.framework */; };
 		21A4D56018A32B6D0007EE93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21A4D55E18A32B6D0007EE93 /* InfoPlist.strings */; };
 		21A4D56218A32B6D0007EE93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A4D56118A32B6D0007EE93 /* main.m */; };
-		21A4D56618A32B6D0007EE93 /* TESTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A4D56518A32B6D0007EE93 /* TESTAppDelegate.m */; };
+		21A4D56618A32B6D0007EE93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A4D56518A32B6D0007EE93 /* AppDelegate.m */; };
 		21A4D56918A32B6D0007EE93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A4D56718A32B6D0007EE93 /* Main.storyboard */; };
-		21A4D56C18A32B6D0007EE93 /* TESTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A4D56B18A32B6D0007EE93 /* TESTViewController.m */; };
+		21A4D56C18A32B6D0007EE93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A4D56B18A32B6D0007EE93 /* ViewController.m */; };
 		21A4D56E18A32B6D0007EE93 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 21A4D56D18A32B6D0007EE93 /* Contents.json */; };
 		21A4D57518A32B6D0007EE93 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A4D57418A32B6D0007EE93 /* XCTest.framework */; };
 		21A4D57618A32B6D0007EE93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A4D55518A32B6D0007EE93 /* Foundation.framework */; };
@@ -44,11 +44,11 @@
 		21A4D55F18A32B6D0007EE93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21A4D56118A32B6D0007EE93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		21A4D56318A32B6D0007EE93 /* 002-FormStudy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "002-FormStudy-Prefix.pch"; sourceTree = "<group>"; };
-		21A4D56418A32B6D0007EE93 /* TESTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TESTAppDelegate.h; sourceTree = "<group>"; };
-		21A4D56518A32B6D0007EE93 /* TESTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TESTAppDelegate.m; sourceTree = "<group>"; };
+		21A4D56418A32B6D0007EE93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21A4D56518A32B6D0007EE93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		21A4D56818A32B6D0007EE93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		21A4D56A18A32B6D0007EE93 /* TESTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TESTViewController.h; sourceTree = "<group>"; };
-		21A4D56B18A32B6D0007EE93 /* TESTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TESTViewController.m; sourceTree = "<group>"; };
+		21A4D56A18A32B6D0007EE93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21A4D56B18A32B6D0007EE93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		21A4D56D18A32B6D0007EE93 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Contents.json; path = Images.xcassets/AppIcon.appiconset/Contents.json; sourceTree = "<group>"; };
 		21A4D57318A32B6D0007EE93 /* 002-FormStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "002-FormStudyTests.xctest"; path = "/Users/hexuotzo/Desktop/mycode/mygit/002-FormStudy/build/Debug-iphoneos/002-FormStudyTests.xctest"; sourceTree = "<absolute>"; };
 		21A4D57418A32B6D0007EE93 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -145,11 +145,11 @@
 		21A4D58A18A32F740007EE93 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
-				21A4D56418A32B6D0007EE93 /* TESTAppDelegate.h */,
-				21A4D56518A32B6D0007EE93 /* TESTAppDelegate.m */,
+				21A4D56418A32B6D0007EE93 /* AppDelegate.h */,
+				21A4D56518A32B6D0007EE93 /* AppDelegate.m */,
 				21A4D56718A32B6D0007EE93 /* Main.storyboard */,
-				21A4D56A18A32B6D0007EE93 /* TESTViewController.h */,
-				21A4D56B18A32B6D0007EE93 /* TESTViewController.m */,
+				21A4D56A18A32B6D0007EE93 /* ViewController.h */,
+				21A4D56B18A32B6D0007EE93 /* ViewController.m */,
 			);
 			name = "New Group";
 			sourceTree = "<group>";
@@ -254,8 +254,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21A4D56618A32B6D0007EE93 /* TESTAppDelegate.m in Sources */,
-				21A4D56C18A32B6D0007EE93 /* TESTViewController.m in Sources */,
+				21A4D56618A32B6D0007EE93 /* AppDelegate.m in Sources */,
+				21A4D56C18A32B6D0007EE93 /* ViewController.m in Sources */,
 				21A4D56218A32B6D0007EE93 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

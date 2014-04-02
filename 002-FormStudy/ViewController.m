@@ -1,18 +1,18 @@
 //
-//  TESTViewController.m
+//  ViewController.m
 //  hello world
 //
 //  Created by 何 旭 on 14-2-6.
 //  Copyright (c) 2014年 何 旭. All rights reserved.
 //
 
-#import "TESTViewController.h"
+#import "ViewController.h"
 
-@interface TESTViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation TESTViewController
+@implementation ViewController
 
 - (void)viewDidLoad
 {

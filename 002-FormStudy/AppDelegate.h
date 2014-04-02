@@ -1,5 +1,5 @@
 //
-//  TESTAppDelegate.h
+//  AppDelegate.h
 //  002-FormStudy
 //
 //  Created by 何 旭 on 14-2-6.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TESTAppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
